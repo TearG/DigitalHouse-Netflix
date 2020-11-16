@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="login.css">
+    <title>Netflix</title>
+    <link rel="shortcut icon" href="./images/netflix.png" type="image/x-icon"> <!-- Icone na aba do navegador-->
+    <script src="./script.js"> </script>
+</head>
+<body>
+<div id="filtro">
+    <img src="./images/netflix-logo.png" alt="netflix-font" id="logo">
+
+    <div id="container" >
+        <form name="contact" netlify></form>
+        <div id="form">
+            <form action="" id="input">
+                <h1>Entrar</h1>
+                <p>
+                    <input type="email" name="txtEmail" id="email" class="input" placeholder="Email ou número de telefone" onblur="verificaEmail(), limpa()" onfocus="stiloE()">
+                </p>
+                <div id="jsEmail" class="js"></div>
+
+                <p>
+                    <input type="password" name="txtSenha" id="senha" class="input" placeholder="Senha" onblur="verificaSenha(), limpa()" onfocus="stiloS()">
+                    <button id="mostrarSenha"></button>
+                </p>
+                <div id="jsSenha" class="js"></div>
+
+                <p><input type="button" value="Entrar" id="Entrar"></p>
+                
+                <input type="checkbox" id="lembrar"><p class="rodape" id="lembre-se">Lembre-se de mim</p>
+                <a href=""> 
+                    <p class="rodape" id="ajuda">Precisa de ajuda?</p>
+                </a>
+
+               <p id="novoporaqui">Novo por aqui?</p>
+               <a href="">
+                   <p id="assine">Assine agora.</p>
+                </a>
+            </form>
+        </form>
+        </div>
+    </div>
+
+</div>
+<script src="./script.js"></script>
+</body>
+</html>

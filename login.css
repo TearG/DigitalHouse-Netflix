@@ -1,0 +1,143 @@
+body{
+    background-image: url('./images/netflix-bg.jpg');
+    background-attachment: fixed;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 13pt;
+    margin: 0;
+}
+
+#filtro{ /*Para deixar a imagem mais escura*/
+    background-color: rgba(0, 0, 0, 0.5);
+    height: 100%;
+    width: 100%;
+}
+
+#logo{ /*Deixa o logo fixo*/
+    position: fixed;
+    left: 40px;
+    top: 20px;
+}
+
+div#container{    
+    height: 100vh;
+    width: 100vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+div#form{
+    border-radius: 5px;
+    background-color: rgba(0, 0, 0, 0.85);
+    width: 450px;
+    height: 420px;
+    padding-bottom: 50px;
+}
+
+
+#input{
+    position: relative;
+    left: 50px;
+    top: 40px;
+}
+
+input{
+    background-color: rgb(51, 51, 51);
+    color: white;
+    font-size: 13pt;
+    border: 0px;
+    border-radius: 4px;
+    width: 350px;
+    height: 50px;
+}
+
+input::placeholder{
+    position: relative;
+    font-size: 12pt;
+    left: 15px;
+}
+
+input:focus::placeholder{
+    font-size: 10pt;
+    transform: translateY('-30');
+    bottom: 15px;
+}
+
+#mostrarSenha{
+    width: 100px;
+    height: 50px;
+    position: relative;
+    left: 270px;
+    bottom: 50px;
+    color: #8c8c8c;
+    font-size: 10pt;
+    background-color: transparent;
+    border: 0px;
+}
+
+#Entrar{
+    background-color: rgb(223, 12, 12);
+    font-weight: bolder;
+    margin-top: -90px;
+}
+
+#lembre-se{ /*p*/
+    position: relative;
+    font-size: 10pt;
+    bottom: 50px;
+    color: rgb(115, 115, 115);
+    left: 20px;
+}
+
+#lembrar{ /*checkbox*/
+    position: relative;
+    bottom: 16px;
+    max-width: 15px;
+    max-height: 15px;
+}
+
+#ajuda{
+    position: relative;
+    color: rgb(115, 115, 115);
+    font-size: 10pt;
+    bottom: 75px;
+    left: 240px;
+}
+
+a{
+    text-decoration: none;
+}
+
+a:hover{
+    text-decoration: underline #8c8c8c;
+}
+
+#novoporaqui{
+    position: relative;
+    font-size: 13pt;
+    color: #8c8c8c;
+    bottom: 65px;
+}
+
+#assine{
+    position: relative;
+    font-size: 13pt;
+    bottom: 105px;
+    left: 120px;
+    color: white;
+}
+
+.js{
+    position: relative;
+    font-size: 9pt;
+    color: orange;
+    bottom: 10px;
+}
+
+#jsSenha{
+    position: relative;
+    bottom: 55px;
+    width: 250px;
+    height: 0px;
+}
